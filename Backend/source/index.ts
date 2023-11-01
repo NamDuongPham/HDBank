@@ -1,4 +1,4 @@
-import https from 'https';
+import http from 'http';
 import express, { Express } from 'express';
 import morgan from 'morgan'; // record log request, error in console
 import mongoose from 'mongoose';
@@ -49,14 +49,14 @@ router.use((req, res, next) => {
 });
 
 /** Server */
-const httpsServer = https.createServer(router);
+const httpServer = http.createServer(router);
 const PORT: any = process.env.PORT ?? 8080;
 
-httpsServer.listen(PORT, async () => {
+httpServer.listen(PORT, async () => {
       console.log(`Server is running on port ${PORT}`);
 });
 
 // Add an event handler for server errors
-httpsServer.on('error', (error: Error) => {
+httpServer.on('error', (error: Error) => {
       console.error('Server error:', error);
 });
