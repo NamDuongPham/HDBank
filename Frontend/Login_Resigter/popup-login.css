@@ -1,0 +1,56 @@
+.trang-ch {
+  position: absolute;
+  width: calc(100% - 21px);
+  top: calc(50% - 20px);
+  left: 10px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: absolute;
+  top: 744px;
+  left: 891px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow:
+    5px 5px 10px #aaaacc,
+    10px 10px 20px rgba(170, 170, 204, 0.5);
+  width: 136px;
+  height: 64px;
+  overflow: hidden;
+}
+.form-icon {
+  position: absolute;
+  top: 388px;
+  left: 727px;
+  border-radius: var(--br-16xl);
+  width: 473px;
+  height: 318px;
+}
+.ng-nhp-thnh {
+  position: absolute;
+  top: 470px;
+  left: 777px;
+  font-size: var(--font-size-13xl);
+  line-height: 40px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 141px;
+}
+.popup-login {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-tilt-neon);
+}

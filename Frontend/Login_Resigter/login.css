@@ -1,0 +1,208 @@
+.login-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.form-icon3 {
+  position: relative;
+  border-radius: var(--br-16xl);
+  width: 803px;
+  height: 942px;
+  z-index: 0;
+}
+.passfr1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 570px;
+  left: 129px;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow: var(--inner-shadow-3);
+  border-bottom: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 458px;
+  height: 108px;
+  z-index: 1;
+}
+.mt-khu2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 609px;
+  left: 168px;
+  z-index: 2;
+}
+.usernamefr2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 391px;
+  left: 129px;
+  border-radius: var(--br-22xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow: var(--inner-shadow-3);
+  border-bottom: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 458px;
+  height: 108px;
+  z-index: 3;
+}
+.tn-ng-nhp1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 430px;
+  left: 168px;
+  z-index: 4;
+}
+.xin-cho {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 314.5px);
+  left: calc(50% - 239.5px);
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  display: inline-block;
+  width: 503.7px;
+  height: 102.3px;
+  flex-shrink: 0;
+  transform: rotate(-0.11deg);
+  transform-origin: 0 0;
+  z-index: 5;
+}
+.login2 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: calc(50% - 20px);
+  left: 16px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log-in1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 749px;
+  left: 202px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  box-shadow:
+    5px 5px 10px #aaaacc,
+    10px 10px 20px rgba(170, 170, 204, 0.5);
+  width: 136px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 6;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.ng-k1 {
+  position: absolute;
+  width: calc(100% - 64px);
+  top: calc(50% - 20px);
+  left: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 749px;
+  left: 383px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow:
+    5px 5px 10px #aaaacc,
+    10px 10px 20px rgba(170, 170, 204, 0.5);
+  width: 136px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 7;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+}
+.form-group {
+  position: absolute;
+  top: 111px;
+  left: 131px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.login1 {
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-tilt-neon);
+}
+
+.trang-ch {
+  position: absolute;
+  width: calc(100% - 21px);
+  top: calc(50% - 20px);
+  left: 10px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: absolute;
+  top: 744px;
+  left: 891px;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-ghostwhite);
+  box-shadow:
+    5px 5px 10px #aaaacc,
+    10px 10px 20px rgba(170, 170, 204, 0.5);
+  width: 136px;
+  height: 64px;
+  overflow: hidden;
+}
+.form-icon {
+  position: absolute;
+  top: 388px;
+  left: 727px;
+  border-radius: var(--br-16xl);
+  width: 473px;
+  height: 318px;
+}
+.ng-nhp-thnh {
+  position: absolute;
+  top: 470px;
+  left: 777px;
+  font-size: var(--font-size-13xl);
+  line-height: 40px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 141px;
+}
+.popup-login {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-tilt-neon);
+}

@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "login_res",
+    "id": "65466b33b7cb8c149281c78b",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "d:\\clone\\src\\components",
+    "screensPath": "d:\\clone\\src\\pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}
